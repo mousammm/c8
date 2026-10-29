@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'LibreBaskerville';
+    src: url('../asset/LibreBaskerville-Regular.ttf') format('truetype');
+}
+::selection {
+  background-color: #ffcc00;
+  color: #000000;
+}
+::-moz-selection {
+  background-color: #ffcc00;
+  color: #000000;
+}
+
+body {
+    background: #181818;
+    color: #F0F0F0;
+    font-family: LibreBaskerville;
+    margin: auto;
+    max-width: 960px;
+    font-size: 16px;
+}
+
+#u  { padding-top: 20px; }
+#d  { padding-bottom: 20px; }
+#ud { padding-top: 20px; padding-bottom: 20px;}
+
+.para > *:not(:last-child) {
+  padding-bottom: 20px;
+}
+
+p {
+    line-height: 1.5;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+h2 {
+    font-size: 28px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h2 a { color: #F0F0F0; }
+
+/* inline code block */
+kbd {
+    display: inline-block;
+    font-family: monospace;
+    padding: 3px 3px;
+    background: #303030;
+    line-height: 10px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 2px;
+}
+
+/* code block */
+#code {
+    display: inline-block;
+    font-family: monospace;
+    background: #242424;
+    width: 100%;
+    color: #CCE0BB;
+    padding: 10px 0 10px 0;
+}
+
+ul {
+  padding-left: 1.5rem;
+  list-style-type: square;
+}
+ul li {
+  line-height: 1.5;
+}
+
+
+a {
+    color: #9090EE;
+    text-decoration: none;
+}
+.author {
+    text-align: center;
+    padding-bottom: 40px;
+    font-style: italic;
+}
+.author a {
+    color: #F0F0F0;
+}
