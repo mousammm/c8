@@ -2,7 +2,7 @@
 A chip8 emulator though it's more like a intrepreter.
 
 ![img](./assets/ibm.png)
-![img](./assets/breakout.png.png)
+![img](./assets/breakout.png)
 
 ## Prerequisites
 - GCC 
